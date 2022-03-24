@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2B117E7427ED16D2008C0300 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B117E7327ED16D2008C0300 /* BootSplash.storyboard */; };
+		2B79C04427ED200800D4E0EB /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B79C04327ED200800D4E0EB /* Expo.plist */; };
 		6172F2D35A4C3AA820D92908 /* libPods-expoupdatesissue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-expoupdatesissue.a */; };
 		6F58500A396D80787EAF75D8 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEA98A8B3175E6FF9695B8 /* ExpoModulesProvider.swift */; };
 		7EF68E3733C33B6898317E18 /* libPods-expoupdatesissue-expoupdatesissueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-expoupdatesissue-expoupdatesissueTests.a */; };
@@ -41,6 +42,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = expoupdatesissue/main.m; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-expoupdatesissue-expoupdatesissueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expoupdatesissue-expoupdatesissueTests.release.xcconfig"; path = "Target Support Files/Pods-expoupdatesissue-expoupdatesissueTests/Pods-expoupdatesissue-expoupdatesissueTests.release.xcconfig"; sourceTree = "<group>"; };
 		2B117E7327ED16D2008C0300 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = expoupdatesissue/BootSplash.storyboard; sourceTree = "<group>"; };
+		2B79C04327ED200800D4E0EB /* Expo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		2EFEA98A8B3175E6FF9695B8 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-expoupdatesissue-expoupdatesissueTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		56F2A80B555F85BD3C6436CA /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-expoupdatesissue/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-expoupdatesissue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-expoupdatesissue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 		13B07FAE1A68108700A75B9A /* expoupdatesissue */ = {
 			isa = PBXGroup;
 			children = (
+				2B79C04227ED1FF800D4E0EB /* Supporting */,
 				2B117E7327ED16D2008C0300 /* BootSplash.storyboard */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -109,6 +112,14 @@
 				56F2A80B555F85BD3C6436CA /* ExpoModulesProvider.swift */,
 			);
 			name = expoupdatesissue;
+			sourceTree = "<group>";
+		};
+		2B79C04227ED1FF800D4E0EB /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				2B79C04327ED200800D4E0EB /* Expo.plist */,
+			);
+			name = Supporting;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -275,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B79C04427ED200800D4E0EB /* Expo.plist in Resources */,
 				2B117E7427ED16D2008C0300 /* BootSplash.storyboard in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
